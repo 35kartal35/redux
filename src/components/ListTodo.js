@@ -13,7 +13,9 @@ const ListTodos = () => {
             {uygulamanınStatei.todosState.todos.length > 0 && (
                 <>
                 {uygulamanınStatei.todosState.todos.map((todo) =>(
-                    <h1>{todo.text}</h1>
+                    <h1>{todo.text} <button>sil</button>
+                    <button>düzenle</button> 
+                    <button>done</button></h1> 
                 ))}
                 
                 </>
